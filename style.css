@@ -28,7 +28,7 @@
 body{margin: 0}
 
 #app {
-    width: 70em;
+    width: 50%;
     margin: 0;
     background-color: #eee;
     
@@ -38,8 +38,8 @@ body{margin: 0}
 }
 
 img {
-    margin: 5px;
-    width: 35em;
+    
+    width: 25em;
     border: 3px solid white;
     box-shadow: 2px 2px 0.5 #111;
     border-radius: 1em;
