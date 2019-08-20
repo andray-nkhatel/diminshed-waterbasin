@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#app {
+    width: 70em;
+    margin: 0;
+    background-color: #eee;
+    
+    padding: 5em;
+    text-align: center;
+    
+}
+
+img {
+    margin: 5px;
+    width: 35em;
+    border: 3px solid white;
+    box-shadow: 2px 2px 0.5 #111;
+    border-radius: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cont {
+    background-color:#fff;
+    padding: 2em;
+    margin: 2em;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 0em 0.1em 0.5em 0.1em #999;
+}
