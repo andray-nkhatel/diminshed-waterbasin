@@ -2,6 +2,37 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
+    color: #333;
+    
+}
+
+.sp {
+    background-color: darkkhaki;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.date {
+    text-align: left;
+    font-size: 8pt;
+}
+
+.sp3, .sp2 {
+    margin: 0px;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.sp {
+    font-size: 2.5em;
 }
 
 #app {
@@ -15,17 +46,24 @@ body {
 }
 
 .cont {
-    display: flex;
-    flex-direction: column;
+ 
+    margin: 10px;
 
-    align-items: center;
+    border-radius: 1em;
+    box-shadow: 2px 1px 4px 3px #666;
+}
+
+.date {
+    text-align: left;
+    text-emphasis: 
 }
 
 
 h1 {
     font-size: 18pt;
-    padding: 0px;
-    text-align: center;
+    /* background-color: bisque; */
+    
+    /* text-align: center; */
     margin: 5px;
 }
 p {
@@ -34,6 +72,10 @@ p {
     margin: 5px;
 
 } 
+
+img {
+    border-radius: 0 0 1em 1em;
+}
 
 @media only screen and (max-width: 600px) {
     .cont {
