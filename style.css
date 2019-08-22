@@ -23,15 +23,16 @@ body {
 
 
 h1 {
-    font-size: 30pt;
+    font-size: 18pt;
     padding: 0px;
     text-align: center;
     margin: 5px;
 }
 p {
-    font-size: 15pt;
-    text-align: center;
+    font-size: 12pt;
+    /* text-align: justify; */
     margin: 5px;
+
 } 
 
 @media only screen and (max-width: 600px) {
@@ -41,4 +42,10 @@ p {
     }
 
     
+}
+
+@media only screen and (min-width: 600) {
+    #app {
+        width: 50vw;
+    }
 }
