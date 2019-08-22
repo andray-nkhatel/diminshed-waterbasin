@@ -23,19 +23,23 @@ body {
 
 
 h1 {
-    font-size: 15pt;
+    font-size: 18pt;
     padding: 0px;
-    
+    text-align: center;
     margin: 5px;
 }
 p {
-    font-size: 10pt;
+    font-size: 12pt;
     /* text-align: justify; */
     margin: 5px;
 
 } 
 
 @media only screen and (max-width: 600px) {
+    .cont {
+        width: 100vw;
+    }
+    
     img {
         width: 100vw;
         margin: 5px;
@@ -44,8 +48,13 @@ p {
     
 }
 
-@media only screen and (min-width: 600) {
-    #app {
-        width: 50vw;
+@media only screen and (min-width: 600px) {
+    .cont {
+        width: 500px;
     }
+
+    img {
+        width: 500px;
+    }
+       
 }
