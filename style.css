@@ -23,13 +23,13 @@ body {
 
 
 h1 {
-    font-size: 18pt;
+    font-size: 15pt;
     padding: 0px;
-    text-align: center;
+    
     margin: 5px;
 }
 p {
-    font-size: 12pt;
+    font-size: 10pt;
     /* text-align: justify; */
     margin: 5px;
 
