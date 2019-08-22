@@ -19,21 +19,19 @@ fetch(url)
                 let div = document.getElementById('app');
                 let img = document.createElement('img');
                 let h1 = document.createElement('h1');
-                let ul = document.createElement('ul');
-                let li = document.createElement('li');
+                let p = document.createElement('p');
                 let cont = document.createElement('div');
 
 
                 h1.innerHTML = item.title;
-                li.innerHTML = item.description;
+                p.innerHTML = item.description;
                 img.src = item.urlToImage;
                 cont.setAttribute('class', 'cont');
                 
                 
                 
-                ul.appendChild(li);
                 cont.appendChild(h1);
-                cont.appendChild(ul);
+                cont.appendChild(p);
                 cont.appendChild(img);
                 
 
