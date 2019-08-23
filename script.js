@@ -52,11 +52,7 @@ fetch(url)
 
                 div.appendChild(cont);
 
-                const sp = document.getElementsById('sp');
-                sp.onclick = () => {
-                    sp.style.display = 'none';
-                }
-
+                
 
 
 
